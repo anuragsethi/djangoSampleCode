@@ -26,7 +26,7 @@ from .lawn_engine.engine.main import Manager
 from .lawn_engine.test_main import get_prior_apps
 import logging
 import json
-from prairie_lawn_care.permissions import IsAdminOrAuthenticatedReadOnly
+from lawn_care.permissions import IsAdminOrAuthenticatedReadOnly
 
 
 class LawnEngineProcessing(APIView):
